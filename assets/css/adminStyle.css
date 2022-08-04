@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: var(--bg-titos);
+}
+
+.bg-white{
+    background-color: var(--white1) !important;
+}
+
+.login-page{
+    margin-top: 30vh;
+}
+
+.card-login{
+    width: 30vw;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-title{
+    color: var(--text-titos);
+    font-size:  1.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.btn-titos{
+    background-color: var(--text-titos);
+    color: var(--white);
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.panel{
+    display: flex;
+}
+
+.navbar-titos{
+    width: 250px;
+    margin-right: 2em;
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: 2px 3px 2px 0px rgba(0, 0, 0, 0.25);
+    align-content: baseline;
+}
+
+.navbar-logo{
+    width: 100%;
+    text-align: center;
+}
+
+.logo{
+    width: 150px;
+}
+
+.navbar-titos-aside{
+    padding: 15px;
+    width: 100%;
+}
+
+.nav-link-titos{
+    font-weight: 500;
+    color: var(--text-titos);
+    margin-bottom: 0.15em;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link-titos.active{
+    background-color: var(--text-titos);
+    color: var(--white);
+    box-shadow: 2px 1px 2px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.nav-link-titos ion-icon{
+    font-size: 20px;
+    line-height: 2rem;
+    padding-right: 0.5rem;
+}
+
+.nav-link-titos:hover{
+    background-color: var(--text-titos);
+    color: var(--white);
+    box-shadow: 2px 1px 2px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+main{
+    width: 100%;
+}
+
+.breadcrumb{
+    padding: 2px;
+}
+
+.titos-title{
+    color: var(--text-titos);
+}
+
+.nav-link{
+    color: var(--text-titos);
+}
+
+.nav-link-user:hover{
+    color: var(--text-titos);
+}
+
+.nav-link-user{
+    display: flex;
+    align-items: center;
+}
+
+.nav-link-user ion-icon{
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.card{
+    box-shadow: 2px 1px 2px 0px rgba(0, 0, 0, 0.25);    
+}
+
+.card-pedidos-titos{
+    position: absolute;
+    top: -20px;
+    left: 10%;
+    padding: 15px;
+    width: 18rem;
+    color: var(--white);
+    box-shadow: 2px 1px 2px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 0.73rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.card-header-titos{
+    position: absolute;
+    top: -40px;
+    left: 35%;
+    width: 70px;
+    height: 70px;
+    background-color: var(--white);
+    display: flex;
+    box-shadow: 2px 1px 2px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 0.73rem;
+}
+
+.card-mesas-titos{
+    position: absolute;
+    top: -20px;
+    left: 2rem;
+    padding: 15px;
+    width: 18rem;
+    color: var(--white);
+    box-shadow: 2px 1px 2px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 0.73rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.card-body-mesas-titos{
+    text-align: center;
+}
+
+.card-mesas-titos ion-icon{
+    font-size: 1.5rem;
+}
+
+.card-pedidos-titos ion-icon{
+    padding-top: .25rem;
+    font-size: 1.5rem;
+}
+
+.card-header-titos ion-icon{
+    padding: 19px;
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.card-mesas-titos ion-icon{
+    padding-top: .25rem;
+    font-size: 1.5rem;
+}
+
+.card-title-titos{
+    margin-top: 18px;
+}
+
+.card-description{
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: var(--black-1);
+}
+
+.list-orders{
+    display: flex;
+}
+
+.list-orders:hover{
+    cursor: pointer;
+}
+
+.orders-item h5{
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.orders-item span{
+    font-size: .75rem;
+}
+
+.list-orders ion-icon{
+    font-size: 2.5rem;
+    margin-right: .5rem;
+}
+
+.orders-item-time {
+    position: absolute;
+    display: flex;
+    right: 10px;
+    padding: 12px;
+}
+
+.orders-item-time ion-icon{
+    font-size: 1.3rem;
+}
+
+.bg-orders{
+    background-color: var(--bs-primary);
+}
+
+.bg-orders .card-title, 
+.bg-orders .card-description{
+    color: var(--white);
+}
+
+.bg-orders-week{
+    background-color: var(--bs-warning);
+}
+
+.bg-tables{
+    background-color: var(--bs-secondary);
+}
+
+.bg-orders-week .card-title, 
+.bg-orders-week .card-description{
+    color: var(--white);
+}
+
+.bg-cash-week{
+    background-color: var(--bs-info);
+}
+
+.bg-cash-month{
+    background-color: var(--bs-success);
+}
+
+.bg-forders{
+    background-color: var(--bs-orange);
+}
+
+.list-orders.text-danger{
+    border: 2px solid var(--bs-danger);
+}
+
+.card-body-table{
+    padding: 0.35rem !important;
+    margin-bottom: 0;
+}
+
+.config-table{
+    display: flex;
+}
+
+.config-table ion-icon{
+    line-height: 1.5rem;
+    font-size: 2.4rem;
+}
+
+.config-table .tables{
+    text-align: left;
+    font-size: 12px;
+}
+
+.config-table .tables span{
+    display: block;
+}
+
+.col-tables:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+/* minhas alterações */
+.controle-usuario{
+    display: flex;
+    flex-direction: column;
+}
+.controle-usuario > input{
+    cursor: pointer;
+
+}
+
+/* minhas alterações */
