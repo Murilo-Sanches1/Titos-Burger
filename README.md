@@ -2,7 +2,7 @@
 
 ## Sobre
 Painel Administrativo para uma hamburgueria fictícia. Projeto construído junto com a minha sala e professores na parte de Back-End do meu curso técnico,
-foi feita toda a Modelagem de Dados e definida as regras de negócio.
+foi feita toda a Modelagem de Dados e definida as regras de negócio. Feito criptografia de informações, cadastro de clientes, fornecedores e usuários, recuperação de senha, mudanã de senha, etc.
 
 ### Conteúdos  
 * [Sobre](#sobre)  
@@ -16,6 +16,7 @@ foi feita toda a Modelagem de Dados e definida as regras de negócio.
 * MySQL
 * HTML
 * CSS
+* Bootstrap
 * JavaScript
 * JQuery
 * AJAX
