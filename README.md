@@ -1,4 +1,4 @@
-# Tito-s-Burger
+# Titos-Burger
 
 ## Sobre
 Painel Administrativo para uma hamburgueria fictícia. Projeto construído junto com a minha sala e professores na parte de Back-End do meu curso técnico,
